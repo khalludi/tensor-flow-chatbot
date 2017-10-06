@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/khalid/prog/deep_learning/chatbot-py3/model.tflearn"
+all_model_checkpoint_paths: "/Users/khalid/prog/deep_learning/chatbot-py3/model.tflearn"
