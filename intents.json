@@ -37,6 +37,11 @@
          "patterns": ["today"],
          "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
          "context_filter": "rentalday"
-        }
+        },
+	{"tag": "tomorrow",
+	 "patterns": ["tomorrow", "next week", "later this week"],
+	 "responses": ["You can make a reservation at www.mymoped.com", "Go to www.mymoped.com to reserve your moped"],
+	 "context_filter": "rentalday"
+	}
    ]
 }
