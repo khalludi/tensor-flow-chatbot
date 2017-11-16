@@ -39,7 +39,7 @@ io.on("connection", function(socket) {
 	var request = require("request")
 	request({
     	  method: 'POST',
-    	  url: 'http://127.0.0.1:5000/tf_model/predict',
+    	  url: 'http://still-refuge-64971.herokuapp.com/tf_model/predict',
     	  // body: '{"foo": "bar"}'
     	  json: data
 	}, (error, response, body) => {
