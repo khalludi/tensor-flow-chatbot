@@ -43,9 +43,9 @@ io.on("connection", function(socket) {
     	  // body: '{"foo": "bar"}'
     	  json: data
 	}, (error, response, body) => {
-    	  console.log(error);
+//    	  console.log(error);
       	  // console.log(response);
-    	  console.log(body);
+//    	  console.log(body);
 	  socket.emit("chat message", body["message"])
 	});
 
